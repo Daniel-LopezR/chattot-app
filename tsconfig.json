@@ -18,6 +18,8 @@
   },
   "include": [
     ".eslintrc.cjs",
+    "tailwind.config.cjs",
+    "postcss.config.cjs",
     "vite.config.ts",
     "test",
     "src"],
