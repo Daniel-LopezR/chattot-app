@@ -1,7 +1,9 @@
+import Login from "./Login";
+
 function App() {
   return (
     <div>
-      Hola
+      <Login/>
     </div>
   );
 }
