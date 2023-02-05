@@ -17,11 +17,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    ".eslintrc.cjs",
-    "tailwind.config.cjs",
-    "postcss.config.cjs",
-    "vite.config.ts",
-    "test",
-    "src"],
+    "**/*.cjs",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/**/*.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

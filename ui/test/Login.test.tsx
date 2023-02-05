@@ -1,6 +1,6 @@
 import { cleanup, render, screen } from '@testing-library/react';
 import { afterEach, describe, it } from 'vitest';
-import Login from '../src/Login';
+import Login from '../src/components/Login';
 
 describe('Login', (): void => {
   afterEach(cleanup);
