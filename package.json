@@ -4,6 +4,12 @@
     "description": "",
     "private": true,
     "main": "index.js",
+    "scripts": {
+        "build:backend": "yarn install && cd packages/api && yarn install && npm run tsc",
+        "start:backend": "cd packages/api && npm run start",
+        "build:frontend": "",
+        "start:frontend": ""
+    },
     "workspaces": {
         "packages": [
             "ui",
